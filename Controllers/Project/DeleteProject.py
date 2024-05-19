@@ -8,22 +8,27 @@ def delete_project(id):
     connection = connect()
     cursor_object = connection.cursor()
     try:
+        #Check Project Exists or Not
         cursor_object.execute(f"SELECT * FROM project_information WHERE project_id='{id}'")
         prj = cursor_object.fetchall()
         check=len(prj)
         if check<=0:
             return JSONResponse(content={"message": "Project Doesnt Exists"}, status_code=404)
+
+        
         cursor_object.execute(f"SELECT managers_id,employees_id from project_assigned WHERE project_id='{id}'")
         result = cursor_object.fetchone()
         all_employees = result[1]
         all_managers=result[0]
         all_employees_list=json.loads(all_employees)
+
+
         # Create a string for the IN clause
         remove_emps = ','.join(["'{}'".format(emp) for emp in all_employees_list])
-
         cursor_object.execute(f"UPDATE employees_information SET assigned=0,project_assigned=NULL WHERE id IN({remove_emps})")
-        print(remove_emps)
-        #fetch all the managers and employees of the project and then remove the project id from the assinged column
+
+
+        #Fetch all the managers and employees of the project and then remove the project id from the assinged column
         #Lets first remove from the employee table
         values_list = eval(all_managers)
         for ele in values_list:

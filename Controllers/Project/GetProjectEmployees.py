@@ -8,13 +8,17 @@ def get_project_employees(project_id):
     connection = connect()
     cursor_object = connection.cursor()
     try:
+        #Check project exists or not
         cursor_object.execute(f"SELECT * FROM project_information WHERE project_id='{project_id}'")
         check = len(cursor_object.fetchone())
         if check is None:
             return JSONResponse(content=f"{'message': 'Invalid Project Id'}",status_code=404)
+
+        
         #Query to find all the details of a employee
         cursor_object.execute(f"SELECT managers_id,employees_id FROM project_assigned WHERE project_id='{project_id}'")
         result = cursor_object.fetchone()
+
         #Getting all the manager's id and then converitng them to list
         managers_id=result[0]
         managers_id_list=[]
@@ -27,6 +31,7 @@ def get_project_employees(project_id):
             cursor_object.execute(f"SELECT * FROM managers_information WHERE id IN ({placeholders})", managers_id_list)
             #Calling manager view to fomat the output view
             all_managers = Manager.get_manager_response(cursor_object.fetchall())
+
 
         #Getting all the employee's id and then converitng them to list
         employees_id=result[1]

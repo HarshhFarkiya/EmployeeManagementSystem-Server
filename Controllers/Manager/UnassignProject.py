@@ -7,20 +7,26 @@ def unassign_project_manager(manager):
     connection = connect()
     cursor_object = connection.cursor()
     try:
+        #Check required parameters exists in the request or not
         required_parameters = ['manager_id','project_id']
         if not all(param in manager for param in required_parameters):
             return JSONResponse(content={"message": "Missing Parameters"}, status_code=422)
+
+        #Check Manager exists or not
         cursor_object.execute(f"SELECT * FROM managers_information WHERE id = '{manager['manager_id']}'")
         check = len(cursor_object.fetchall())
         if int(check) <= 0:
-            return JSONResponse(content={"message":"manager Doesn't Exists, Please Provide a Valid manager Id"},status_code=404)
+            return JSONResponse(content={"message":"Invalid Manager Id"},status_code=404)
         project_id = manager['project_id']
 
+        #Check Project exists or not
         cursor_object.execute(f"SELECT * FROM project_information WHERE project_id = '{project_id}'")
         check = len(cursor_object.fetchall())
         if int(check) <= 0:
-            return JSONResponse(content={"message":"Project Doesn't Exists, Please Provide a Valid Project Id"},status_code=404)
-        #fetching all the managers of given project id and remove the requested manager from the list
+            return JSONResponse(content={"message":"Invalid Project Id"},status_code=404)
+
+        
+        #Fetching all the managers of given project id and remove the requested manager from the list
         cursor_object.execute(f"SELECT managers_id FROM project_assigned WHERE project_id='{project_id}'")
         prev_managers_result = cursor_object.fetchone()
         if prev_managers_result is not None:

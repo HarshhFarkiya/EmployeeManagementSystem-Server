@@ -17,4 +17,5 @@ def get_all_managers():
         print("Some Error Occured", e)
         disconnect(connection)
         raise Exception("Internal Server Error",e)
-    disconnect(connection)
+    finally:
+        disconnect(connection)

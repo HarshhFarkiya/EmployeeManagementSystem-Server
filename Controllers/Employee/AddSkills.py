@@ -6,13 +6,13 @@ def add_skills(employee):
     connection = connect()
     cursor_object = connection.cursor()
     try:
+        #Checking all the required parameters are present or not in the request
         required_parameters = ['employee_id','add_skills']
         if not all(param in employee for param in required_parameters):
             return JSONResponse(content={"message": "Missing Parameters"}, status_code=422)
-        #Fetch all the previous skills 
-        new_skills = employee['add_skills']
 
-        #Adding the new skills to the table
+        new_skills = employee['add_skills']
+        #Updating the new skills to the employees_information table
         cursor_object.execute(f"UPDATE employees_information SET skills='{new_skills}' WHERE id='{employee['employee_id']}'")
         connection.commit()
         return JSONResponse(content={"message": "Skills Added"}, status_code=200)
