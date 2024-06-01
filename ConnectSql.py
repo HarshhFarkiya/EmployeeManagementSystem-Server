@@ -2,14 +2,20 @@ import mysql.connector
 
 def connect():
     # Connect to the database
-    conn_obj = mysql.connector.connect(
+    try:
+        conn_obj = mysql.connector.connect(
         host="localhost",
         user="harsh",
         password="harsh123",
         database="NucleusTeq"  # Specify the database name here
     )
-    return conn_obj
+        return conn_obj
+    except Exception as e:
+        raise Exception("Internal Server Error",e)
 
 def disconnect(conn_obj):
     # Disconnect from the database
-    conn_obj.close()
+    try:
+        conn_obj.close()
+    except Exception as e:
+        raise Exception("Internal Server Error",e)

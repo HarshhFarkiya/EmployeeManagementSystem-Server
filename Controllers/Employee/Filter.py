@@ -7,6 +7,7 @@ def filter_employees(skills):
     connection = connect()
     cursor_object = connection.cursor()
     try:
+        #Converting skills into lower case
         required_skills = skills.lower()
         keywords = required_skills.split()
         #Query to find all the details of a employee
@@ -23,9 +24,10 @@ def filter_employees(skills):
                 employees.append(e)
         all_employees = Employee.get_employee_response(employees)
         connection.commit()
-        return JSONResponse(content=f"{{'message': 'Filtered Employees', 'result': {all_employees}}}",status_code=200)
+        return JSONResponse(content={'message': 'Filtered Employees', 'result': all_employees},status_code=200)
     except Exception as e: 
         print("Some Error Occured", e)
         disconnect(connection)
         raise Exception("Internal Server Error",e)
-    disconnect(connection)
+    finally:
+        disconnect(connection)

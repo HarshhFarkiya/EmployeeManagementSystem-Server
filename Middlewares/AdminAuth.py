@@ -16,6 +16,7 @@ def is_token_expired(token):
         return True  # Invalid token
 
 def admin_auth(user):
+    #Check required parameters of request
     required_parameters = ['admin_id','token']
     if not all(param in user for param in required_parameters):
         return JSONResponse(content={"message": "Missing Parameters"}, status_code=422)
