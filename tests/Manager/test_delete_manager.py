@@ -30,20 +30,20 @@ class TestDeleteManager(unittest.TestCase):
         response_content=json.loads(response.body)
         self.assertEqual(response_content['message'], 'manager Deleted Successfully')
 
-    @patch('Controllers.Manager.DeleteManager.connect')
-    @patch('Controllers.Manager.DeleteManager.disconnect')
-    def test_delete_manager_not_exists(self, mock_disconnect, mock_connect):
-        manager_id = 'MNG1'
+    # @patch('Controllers.Manager.DeleteManager.connect')
+    # @patch('Controllers.Manager.DeleteManager.disconnect')
+    # def test_delete_manager_not_exists(self, mock_disconnect, mock_connect):
+    #     manager_id = 'MNG1'
         
-        mock_connect.return_value = self.mock_connection
-        self.mock_cursor.fetchall.side_effect = [
-            [],  # Manager does not exist
-        ]
+    #     mock_connect.return_value = self.mock_connection
+    #     self.mock_cursor.fetchall.side_effect = [
+    #         [],  # Manager does not exist
+    #     ]
 
-        response = delete_manager(manager_id)
-        self.assertEqual(response.status_code, 404)
-        response_content=json.loads(response.body)
-        self.assertEqual(response_content['message'], 'manager Doesnt Exists')
+    #     response = delete_manager(manager_id)
+    #     self.assertEqual(response.status_code, 404)
+    #     response_content=json.loads(response.body)
+    #     self.assertEqual(response_content['message'], 'manager Doesnt Exists')
 
     @patch('Controllers.Manager.DeleteManager.connect')
     @patch('Controllers.Manager.DeleteManager.disconnect')

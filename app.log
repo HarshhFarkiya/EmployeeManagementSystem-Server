@@ -374,3 +374,351 @@
 2024-06-01 10:22:05,913 - DEBUG - Exchanging further packets
 2024-06-01 10:22:05,913 - DEBUG - caching_sha2_password completed succesfully
 2024-06-01 10:22:05,925 - INFO - Employee Deleted Successfully
+2024-06-01 23:46:36,804 - DEBUG - Building SSL context
+2024-06-01 23:46:36,805 - DEBUG - Switching to SSL
+2024-06-01 23:46:36,809 - DEBUG - SSL has been enabled
+2024-06-01 23:46:36,809 - DEBUG - Starting authorization phase
+2024-06-01 23:46:36,809 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-01 23:46:36,809 - INFO - package: mysql.connector.plugins
+2024-06-01 23:46:36,810 - INFO - plugin_name: caching_sha2_password
+2024-06-01 23:46:36,810 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2024-06-01 23:46:36,810 - DEBUG - Exchanging further packets
+2024-06-01 23:46:36,816 - DEBUG - caching_sha2_password completed succesfully
+2024-06-01 23:46:37,124 - INFO - User Logged In
+2024-06-01 23:47:28,202 - DEBUG - Building SSL context
+2024-06-01 23:47:28,203 - DEBUG - Switching to SSL
+2024-06-01 23:47:28,207 - DEBUG - SSL has been enabled
+2024-06-01 23:47:28,207 - DEBUG - Starting authorization phase
+2024-06-01 23:47:28,207 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-01 23:47:28,207 - DEBUG - Exchanging further packets
+2024-06-01 23:47:28,208 - DEBUG - caching_sha2_password completed succesfully
+2024-06-01 23:47:32,352 - DEBUG - Building SSL context
+2024-06-01 23:47:32,352 - DEBUG - Switching to SSL
+2024-06-01 23:47:32,355 - DEBUG - SSL has been enabled
+2024-06-01 23:47:32,355 - DEBUG - Starting authorization phase
+2024-06-01 23:47:32,355 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-01 23:47:32,355 - DEBUG - Exchanging further packets
+2024-06-01 23:47:32,355 - DEBUG - caching_sha2_password completed succesfully
+2024-06-01 23:47:32,358 - DEBUG - Building SSL context
+2024-06-01 23:47:32,359 - DEBUG - Switching to SSL
+2024-06-01 23:47:32,361 - DEBUG - SSL has been enabled
+2024-06-01 23:47:32,361 - DEBUG - Starting authorization phase
+2024-06-01 23:47:32,361 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-01 23:47:32,361 - DEBUG - Exchanging further packets
+2024-06-01 23:47:32,361 - DEBUG - caching_sha2_password completed succesfully
+2024-06-01 23:47:37,865 - DEBUG - Building SSL context
+2024-06-01 23:47:37,866 - DEBUG - Switching to SSL
+2024-06-01 23:47:37,871 - DEBUG - SSL has been enabled
+2024-06-01 23:47:37,871 - DEBUG - Starting authorization phase
+2024-06-01 23:47:37,871 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-01 23:47:37,872 - DEBUG - Exchanging further packets
+2024-06-01 23:47:37,872 - DEBUG - caching_sha2_password completed succesfully
+2024-06-01 23:47:37,886 - DEBUG - Building SSL context
+2024-06-01 23:47:37,887 - DEBUG - Switching to SSL
+2024-06-01 23:47:37,891 - DEBUG - SSL has been enabled
+2024-06-01 23:47:37,892 - DEBUG - Starting authorization phase
+2024-06-01 23:47:37,893 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-01 23:47:37,894 - DEBUG - Exchanging further packets
+2024-06-01 23:47:37,894 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:28,886 - DEBUG - Building SSL context
+2024-06-02 01:05:28,887 - DEBUG - Switching to SSL
+2024-06-02 01:05:28,892 - DEBUG - SSL has been enabled
+2024-06-02 01:05:28,893 - DEBUG - Starting authorization phase
+2024-06-02 01:05:28,893 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:28,893 - DEBUG - Exchanging further packets
+2024-06-02 01:05:28,894 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:29,152 - INFO - User Logged In
+2024-06-02 01:05:29,296 - DEBUG - Building SSL context
+2024-06-02 01:05:29,297 - DEBUG - Switching to SSL
+2024-06-02 01:05:29,300 - DEBUG - SSL has been enabled
+2024-06-02 01:05:29,301 - DEBUG - Starting authorization phase
+2024-06-02 01:05:29,301 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:29,302 - DEBUG - Exchanging further packets
+2024-06-02 01:05:29,303 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:29,317 - DEBUG - Building SSL context
+2024-06-02 01:05:29,318 - DEBUG - Switching to SSL
+2024-06-02 01:05:29,324 - DEBUG - SSL has been enabled
+2024-06-02 01:05:29,325 - DEBUG - Starting authorization phase
+2024-06-02 01:05:29,326 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:29,328 - DEBUG - Exchanging further packets
+2024-06-02 01:05:29,329 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:29,333 - INFO - Employees Fetched Successfully
+2024-06-02 01:05:29,342 - DEBUG - Building SSL context
+2024-06-02 01:05:29,343 - DEBUG - Switching to SSL
+2024-06-02 01:05:29,348 - DEBUG - SSL has been enabled
+2024-06-02 01:05:29,349 - DEBUG - Starting authorization phase
+2024-06-02 01:05:29,349 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:29,349 - DEBUG - Exchanging further packets
+2024-06-02 01:05:29,349 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:29,357 - DEBUG - Building SSL context
+2024-06-02 01:05:29,357 - DEBUG - Switching to SSL
+2024-06-02 01:05:29,360 - DEBUG - SSL has been enabled
+2024-06-02 01:05:29,361 - DEBUG - Starting authorization phase
+2024-06-02 01:05:29,361 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:29,361 - DEBUG - Exchanging further packets
+2024-06-02 01:05:29,362 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:29,365 - INFO - Employees Fetched Successfully
+2024-06-02 01:05:37,302 - DEBUG - Building SSL context
+2024-06-02 01:05:37,302 - DEBUG - Switching to SSL
+2024-06-02 01:05:37,305 - DEBUG - SSL has been enabled
+2024-06-02 01:05:37,305 - DEBUG - Starting authorization phase
+2024-06-02 01:05:37,305 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:37,306 - DEBUG - Exchanging further packets
+2024-06-02 01:05:37,306 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:37,311 - DEBUG - Building SSL context
+2024-06-02 01:05:37,311 - DEBUG - Switching to SSL
+2024-06-02 01:05:37,314 - DEBUG - SSL has been enabled
+2024-06-02 01:05:37,314 - DEBUG - Starting authorization phase
+2024-06-02 01:05:37,315 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:37,315 - DEBUG - Exchanging further packets
+2024-06-02 01:05:37,315 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:37,331 - DEBUG - Building SSL context
+2024-06-02 01:05:37,331 - DEBUG - Switching to SSL
+2024-06-02 01:05:37,333 - DEBUG - SSL has been enabled
+2024-06-02 01:05:37,333 - DEBUG - Starting authorization phase
+2024-06-02 01:05:37,334 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:37,334 - DEBUG - Exchanging further packets
+2024-06-02 01:05:37,335 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:37,342 - DEBUG - Building SSL context
+2024-06-02 01:05:37,343 - DEBUG - Switching to SSL
+2024-06-02 01:05:37,345 - DEBUG - SSL has been enabled
+2024-06-02 01:05:37,345 - DEBUG - Starting authorization phase
+2024-06-02 01:05:37,345 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:37,345 - DEBUG - Exchanging further packets
+2024-06-02 01:05:37,345 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:42,993 - DEBUG - Building SSL context
+2024-06-02 01:05:42,993 - DEBUG - Switching to SSL
+2024-06-02 01:05:42,998 - DEBUG - SSL has been enabled
+2024-06-02 01:05:42,998 - DEBUG - Starting authorization phase
+2024-06-02 01:05:42,998 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:42,999 - DEBUG - Exchanging further packets
+2024-06-02 01:05:42,999 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:43,003 - DEBUG - Building SSL context
+2024-06-02 01:05:43,004 - DEBUG - Switching to SSL
+2024-06-02 01:05:43,008 - DEBUG - SSL has been enabled
+2024-06-02 01:05:43,008 - DEBUG - Starting authorization phase
+2024-06-02 01:05:43,008 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:43,009 - DEBUG - Exchanging further packets
+2024-06-02 01:05:43,009 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:43,014 - DEBUG - Building SSL context
+2024-06-02 01:05:43,014 - DEBUG - Switching to SSL
+2024-06-02 01:05:43,018 - DEBUG - SSL has been enabled
+2024-06-02 01:05:43,018 - DEBUG - Starting authorization phase
+2024-06-02 01:05:43,018 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:43,019 - DEBUG - Exchanging further packets
+2024-06-02 01:05:43,019 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:43,025 - DEBUG - Building SSL context
+2024-06-02 01:05:43,025 - DEBUG - Switching to SSL
+2024-06-02 01:05:43,028 - DEBUG - SSL has been enabled
+2024-06-02 01:05:43,028 - DEBUG - Starting authorization phase
+2024-06-02 01:05:43,028 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:43,029 - DEBUG - Exchanging further packets
+2024-06-02 01:05:43,029 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:44,531 - DEBUG - Building SSL context
+2024-06-02 01:05:44,532 - DEBUG - Switching to SSL
+2024-06-02 01:05:44,537 - DEBUG - SSL has been enabled
+2024-06-02 01:05:44,537 - DEBUG - Starting authorization phase
+2024-06-02 01:05:44,537 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:44,538 - DEBUG - Exchanging further packets
+2024-06-02 01:05:44,538 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:44,542 - DEBUG - Building SSL context
+2024-06-02 01:05:44,542 - DEBUG - Switching to SSL
+2024-06-02 01:05:44,544 - DEBUG - SSL has been enabled
+2024-06-02 01:05:44,544 - DEBUG - Starting authorization phase
+2024-06-02 01:05:44,544 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:44,545 - DEBUG - Exchanging further packets
+2024-06-02 01:05:44,545 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:44,553 - DEBUG - Building SSL context
+2024-06-02 01:05:44,554 - DEBUG - Switching to SSL
+2024-06-02 01:05:44,557 - DEBUG - SSL has been enabled
+2024-06-02 01:05:44,557 - DEBUG - Starting authorization phase
+2024-06-02 01:05:44,557 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:44,558 - DEBUG - Exchanging further packets
+2024-06-02 01:05:44,558 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:44,561 - DEBUG - Building SSL context
+2024-06-02 01:05:44,561 - DEBUG - Switching to SSL
+2024-06-02 01:05:44,563 - DEBUG - SSL has been enabled
+2024-06-02 01:05:44,563 - DEBUG - Starting authorization phase
+2024-06-02 01:05:44,563 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:44,564 - DEBUG - Exchanging further packets
+2024-06-02 01:05:44,564 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:47,831 - DEBUG - Building SSL context
+2024-06-02 01:05:47,831 - DEBUG - Switching to SSL
+2024-06-02 01:05:47,837 - DEBUG - SSL has been enabled
+2024-06-02 01:05:47,837 - DEBUG - Starting authorization phase
+2024-06-02 01:05:47,837 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:47,838 - DEBUG - Exchanging further packets
+2024-06-02 01:05:47,838 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:47,842 - DEBUG - Building SSL context
+2024-06-02 01:05:47,843 - DEBUG - Switching to SSL
+2024-06-02 01:05:47,846 - DEBUG - SSL has been enabled
+2024-06-02 01:05:47,846 - DEBUG - Starting authorization phase
+2024-06-02 01:05:47,846 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:47,847 - DEBUG - Exchanging further packets
+2024-06-02 01:05:47,847 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:47,849 - INFO - Employees Fetched Successfully
+2024-06-02 01:05:47,854 - DEBUG - Building SSL context
+2024-06-02 01:05:47,855 - DEBUG - Switching to SSL
+2024-06-02 01:05:47,857 - DEBUG - SSL has been enabled
+2024-06-02 01:05:47,857 - DEBUG - Starting authorization phase
+2024-06-02 01:05:47,857 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:47,858 - DEBUG - Exchanging further packets
+2024-06-02 01:05:47,858 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:47,860 - DEBUG - Building SSL context
+2024-06-02 01:05:47,861 - DEBUG - Switching to SSL
+2024-06-02 01:05:47,863 - DEBUG - SSL has been enabled
+2024-06-02 01:05:47,863 - DEBUG - Starting authorization phase
+2024-06-02 01:05:47,863 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:05:47,863 - DEBUG - Exchanging further packets
+2024-06-02 01:05:47,863 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:05:47,867 - INFO - Employees Fetched Successfully
+2024-06-02 01:06:01,833 - DEBUG - Building SSL context
+2024-06-02 01:06:01,834 - DEBUG - Switching to SSL
+2024-06-02 01:06:01,838 - DEBUG - SSL has been enabled
+2024-06-02 01:06:01,838 - DEBUG - Starting authorization phase
+2024-06-02 01:06:01,838 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:01,838 - DEBUG - Exchanging further packets
+2024-06-02 01:06:01,838 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:02,098 - INFO - User Logged In
+2024-06-02 01:06:02,161 - DEBUG - Building SSL context
+2024-06-02 01:06:02,162 - DEBUG - Switching to SSL
+2024-06-02 01:06:02,166 - DEBUG - SSL has been enabled
+2024-06-02 01:06:02,167 - DEBUG - Starting authorization phase
+2024-06-02 01:06:02,167 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:02,168 - DEBUG - Exchanging further packets
+2024-06-02 01:06:02,169 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:02,170 - DEBUG - Building SSL context
+2024-06-02 01:06:02,170 - DEBUG - Switching to SSL
+2024-06-02 01:06:02,174 - DEBUG - SSL has been enabled
+2024-06-02 01:06:02,174 - DEBUG - Starting authorization phase
+2024-06-02 01:06:02,175 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:02,175 - DEBUG - Building SSL context
+2024-06-02 01:06:02,176 - DEBUG - Switching to SSL
+2024-06-02 01:06:02,176 - DEBUG - Exchanging further packets
+2024-06-02 01:06:02,177 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:02,181 - DEBUG - SSL has been enabled
+2024-06-02 01:06:02,181 - DEBUG - Starting authorization phase
+2024-06-02 01:06:02,182 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:02,183 - DEBUG - Exchanging further packets
+2024-06-02 01:06:02,183 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:02,184 - DEBUG - Building SSL context
+2024-06-02 01:06:02,185 - DEBUG - Switching to SSL
+2024-06-02 01:06:02,187 - INFO - Employees Fetched Successfully
+2024-06-02 01:06:02,188 - DEBUG - SSL has been enabled
+2024-06-02 01:06:02,188 - DEBUG - Starting authorization phase
+2024-06-02 01:06:02,189 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:02,189 - DEBUG - Exchanging further packets
+2024-06-02 01:06:02,190 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:02,191 - DEBUG - Building SSL context
+2024-06-02 01:06:02,191 - DEBUG - Switching to SSL
+2024-06-02 01:06:02,194 - DEBUG - SSL has been enabled
+2024-06-02 01:06:02,195 - DEBUG - Starting authorization phase
+2024-06-02 01:06:02,195 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:02,196 - DEBUG - Exchanging further packets
+2024-06-02 01:06:02,196 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:02,198 - DEBUG - Building SSL context
+2024-06-02 01:06:02,198 - DEBUG - Switching to SSL
+2024-06-02 01:06:02,201 - DEBUG - Building SSL context
+2024-06-02 01:06:02,201 - DEBUG - SSL has been enabled
+2024-06-02 01:06:02,201 - DEBUG - Starting authorization phase
+2024-06-02 01:06:02,202 - DEBUG - Switching to SSL
+2024-06-02 01:06:02,202 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:02,202 - DEBUG - Exchanging further packets
+2024-06-02 01:06:02,202 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:02,204 - DEBUG - SSL has been enabled
+2024-06-02 01:06:02,204 - DEBUG - Starting authorization phase
+2024-06-02 01:06:02,204 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:02,204 - DEBUG - Exchanging further packets
+2024-06-02 01:06:02,204 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:02,206 - DEBUG - Building SSL context
+2024-06-02 01:06:02,206 - DEBUG - Switching to SSL
+2024-06-02 01:06:02,206 - INFO - Employees Fetched Successfully
+2024-06-02 01:06:02,208 - DEBUG - SSL has been enabled
+2024-06-02 01:06:02,208 - DEBUG - Starting authorization phase
+2024-06-02 01:06:02,208 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:02,209 - DEBUG - Exchanging further packets
+2024-06-02 01:06:02,209 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:08,730 - DEBUG - Building SSL context
+2024-06-02 01:06:08,731 - DEBUG - Switching to SSL
+2024-06-02 01:06:08,737 - DEBUG - SSL has been enabled
+2024-06-02 01:06:08,738 - DEBUG - Starting authorization phase
+2024-06-02 01:06:08,738 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:08,739 - DEBUG - Exchanging further packets
+2024-06-02 01:06:08,739 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:08,746 - DEBUG - Building SSL context
+2024-06-02 01:06:08,746 - DEBUG - Switching to SSL
+2024-06-02 01:06:08,749 - DEBUG - SSL has been enabled
+2024-06-02 01:06:08,749 - DEBUG - Starting authorization phase
+2024-06-02 01:06:08,749 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:08,750 - DEBUG - Exchanging further packets
+2024-06-02 01:06:08,750 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:08,755 - DEBUG - Building SSL context
+2024-06-02 01:06:08,755 - DEBUG - Switching to SSL
+2024-06-02 01:06:08,757 - DEBUG - SSL has been enabled
+2024-06-02 01:06:08,757 - DEBUG - Starting authorization phase
+2024-06-02 01:06:08,757 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:08,757 - DEBUG - Exchanging further packets
+2024-06-02 01:06:08,757 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:08,765 - DEBUG - Building SSL context
+2024-06-02 01:06:08,765 - DEBUG - Switching to SSL
+2024-06-02 01:06:08,768 - DEBUG - SSL has been enabled
+2024-06-02 01:06:08,769 - DEBUG - Starting authorization phase
+2024-06-02 01:06:08,769 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:08,769 - DEBUG - Exchanging further packets
+2024-06-02 01:06:08,769 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:08,806 - DEBUG - Building SSL context
+2024-06-02 01:06:08,806 - DEBUG - Switching to SSL
+2024-06-02 01:06:08,809 - DEBUG - SSL has been enabled
+2024-06-02 01:06:08,810 - DEBUG - Starting authorization phase
+2024-06-02 01:06:08,811 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:08,811 - DEBUG - Exchanging further packets
+2024-06-02 01:06:08,813 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:08,821 - DEBUG - Building SSL context
+2024-06-02 01:06:08,822 - DEBUG - Switching to SSL
+2024-06-02 01:06:08,824 - DEBUG - SSL has been enabled
+2024-06-02 01:06:08,825 - DEBUG - Starting authorization phase
+2024-06-02 01:06:08,825 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:08,826 - DEBUG - Exchanging further packets
+2024-06-02 01:06:08,827 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:08,838 - DEBUG - Building SSL context
+2024-06-02 01:06:08,838 - DEBUG - Switching to SSL
+2024-06-02 01:06:08,840 - DEBUG - SSL has been enabled
+2024-06-02 01:06:08,840 - DEBUG - Starting authorization phase
+2024-06-02 01:06:08,840 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:08,840 - DEBUG - Exchanging further packets
+2024-06-02 01:06:08,841 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:08,849 - DEBUG - Building SSL context
+2024-06-02 01:06:08,850 - DEBUG - Switching to SSL
+2024-06-02 01:06:08,852 - DEBUG - SSL has been enabled
+2024-06-02 01:06:08,852 - DEBUG - Starting authorization phase
+2024-06-02 01:06:08,852 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:08,853 - DEBUG - Exchanging further packets
+2024-06-02 01:06:08,853 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:18,885 - DEBUG - Building SSL context
+2024-06-02 01:06:18,885 - DEBUG - Switching to SSL
+2024-06-02 01:06:18,888 - DEBUG - SSL has been enabled
+2024-06-02 01:06:18,889 - DEBUG - Starting authorization phase
+2024-06-02 01:06:18,889 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:18,889 - DEBUG - Exchanging further packets
+2024-06-02 01:06:18,889 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:18,894 - DEBUG - Building SSL context
+2024-06-02 01:06:18,894 - DEBUG - Switching to SSL
+2024-06-02 01:06:18,898 - DEBUG - SSL has been enabled
+2024-06-02 01:06:18,898 - DEBUG - Starting authorization phase
+2024-06-02 01:06:18,898 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:18,899 - DEBUG - Exchanging further packets
+2024-06-02 01:06:18,899 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:18,904 - DEBUG - Building SSL context
+2024-06-02 01:06:18,904 - DEBUG - Switching to SSL
+2024-06-02 01:06:18,907 - DEBUG - SSL has been enabled
+2024-06-02 01:06:18,907 - DEBUG - Starting authorization phase
+2024-06-02 01:06:18,907 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:18,907 - DEBUG - Exchanging further packets
+2024-06-02 01:06:18,908 - DEBUG - caching_sha2_password completed succesfully
+2024-06-02 01:06:18,914 - DEBUG - Building SSL context
+2024-06-02 01:06:18,914 - DEBUG - Switching to SSL
+2024-06-02 01:06:18,916 - DEBUG - SSL has been enabled
+2024-06-02 01:06:18,916 - DEBUG - Starting authorization phase
+2024-06-02 01:06:18,917 - DEBUG - The provided initial strategy is caching_sha2_password
+2024-06-02 01:06:18,917 - DEBUG - Exchanging further packets
+2024-06-02 01:06:18,917 - DEBUG - caching_sha2_password completed succesfully
