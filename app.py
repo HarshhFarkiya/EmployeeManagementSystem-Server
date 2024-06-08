@@ -6,7 +6,7 @@ from Controllers.Auth import auth
 from Controllers.Admin import GetResourcesRequest,ApproveRequest,RejectRequest,AddAdmin
 from fastapi.middleware.cors import CORSMiddleware
 from Middlewares import EmployeeAuth,ManagerAuth,AdminAuth,UserAuth
-
+import logging
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
@@ -14,6 +14,11 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE"],
     allow_headers=["*"],
+)
+logging.basicConfig(
+       filename='app.log',  # Log file name
+       level=(logging.DEBUG),  # Log level (e.g., DEBUG, INFO, ERROR)
+       format='%(asctime)s - %(levelname)s - %(message)s'  # Log format
 )
 @app.post("/addEmployee")
 def add_employee(employee : dict):

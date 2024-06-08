@@ -8,3 +8,4 @@ CREATE TABLE project_assigned(project_id VARCHAR(10) PRIMARY KEY, managers_id VA
 CREATE TABLE resources_requested(project_id VARCHAR(10) NOT NULL, managers_id VARCHAR(10) NOT NULL, resource_id VARCHAR(10) NOT NULL);
 CREATE TABLE users_count(employees int, managers int, projects int);
 INSERT INTO users_count VALUES(0,0,0);
+INSERT INTO user_management VALUES("admin","admin@gmail.com","$2b$12$o2CQ3XxixwEdy7QF.PeR0Op4M5XPE1VqAuSv8cskx2jWD0hicy346","admin",NULL);
