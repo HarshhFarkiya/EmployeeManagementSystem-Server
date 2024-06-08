@@ -16,7 +16,6 @@ def unassign_project_manager(manager):
             return JSONResponse(content={"message": "Missing Parameters"}, status_code=422)
 
         project_id = manager['project_id']
-
         #Check Project exists or not
         cursor_object.execute(f"SELECT * FROM project_information WHERE project_id = '{project_id}'")
         check = len(cursor_object.fetchall())
